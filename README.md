@@ -31,3 +31,23 @@ A **Java + SQL** based application for managing banking operations like user aut
 ---
 
 ## 📂 Project Structure  
+Bank Management System/ │── src/ │ ├── bank/management/system/
+│ │ ├── Login.java
+│ │ ├── Account.java
+│ │ ├── Transactions.java
+│ │ ├── DatabaseConnection.java
+│ │ ├── Deposit.java
+│ │ ├── Withdraw.java
+│ │ ├── BalanceCheck.java
+│ │
+│ ├── icon/  
+│ │ ├── atm2.png 
+│ │ ├── bankbg.png 
+│ │ ├── bank.png 
+│ │ ├── card.png 
+│ │ ├── provider.png 
+│── lib/
+│── out/
+│── .gitignore
+│── Bank Management System.iml
+│── README.md
