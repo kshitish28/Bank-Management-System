@@ -1,8 +1,3 @@
-# Bank Management System
-
-Welcome to 🏦 Bank Management System – a Java + SQL powered banking application! 💳
-This project simplifies user authentication, account creation, transactions, and balance inquiries, ensuring secure and seamless banking operations.
-
 # 🏦 Bank Management System  
 
 A **Java + SQL** based application for managing banking operations like user authentication, account creation, transactions, and balance inquiries.
