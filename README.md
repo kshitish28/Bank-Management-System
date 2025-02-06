@@ -108,7 +108,7 @@ java bank.management.system.Main
 
 ## 📸 Screenshots  
 (Add relevant screenshots of login, dashboard, and transactions)
-
+![Banking Dashboard](src/icon/Screenshot (96).png)
 ---
 
 ## 🔥 Future Enhancements  
