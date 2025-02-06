@@ -51,3 +51,27 @@ Bank Management System/ │── src/ │ ├── bank/management/system/
 │── .gitignore
 │── Bank Management System.iml
 │── README.md
+
+
+---
+
+## 🖼️ UI Icons  
+The project includes **image assets** for better UI design. These icons are stored in `src/icon/`:
+
+| 🏷 Image Name  | 🎯 Usage |
+|--------------|--------|
+| **atm2.png** | ATM-related UI elements |
+| **bankbg.png** | Background for the banking system |
+| **bank.png** | Bank logo/icon |
+| **card.png** | Card-related operations (e.g., debit/credit card UI) |
+| **provider.png** | Service provider-related transactions |
+
+---
+
+## 🚀 Installation & Setup  
+### **1️⃣ Clone the Repository**  
+```sh
+git clone https://github.com/kshitish28/Bank-Management-System.git
+cd Bank-Management-System```
+
+## Set Up the Database
