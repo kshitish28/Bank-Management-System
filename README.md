@@ -1,84 +1,139 @@
-# Apex College Management Website
+# Bank Management System
 
-![Apex College Logo](link-to-logo-image) <!-- Replace with the link to your college logo image -->
+Welcome to 🏦 Bank Management System – a Java + SQL powered banking application! 💳
+This project simplifies user authentication, account creation, transactions, and balance inquiries, ensuring secure and seamless banking operations.
 
-Welcome to the Apex College Management Website repository! This comprehensive platform is designed and developed for the minor project at Apex College. Leveraging the MERN stack (MongoDB, Express.js, React.js, Node.js) and Firebase, this website offers three essential modules: Student, Faculty, and Admin. The project spanned three months and involved contributions from two collaborators, ReactRocket and Sanju (sanju-react).
+# 🏦 Bank Management System  
 
-## Project Overview
+A **Java + SQL** based application for managing banking operations like user authentication, account creation, transactions, and balance inquiries.
 
-### Features
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white) 
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)  
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-- **Student Module:**
-  - View personal information.
-  - Access course materials and assignments.
-  - Check grades and academic records.
+---
 
-- **Faculty Module:**
-  - Manage course materials and assignments.
-  - Grade students and update academic records.
-  - Communicate with students.
+## 📌 Features  
 
-- **Admin Module:**
-  - Manage student and faculty profiles.
-  - Monitor overall academic performance.
-  - Generate reports and analytics.
+- **User Authentication** – Secure login for customers and bank staff.  
+- **Account Management** – Create, update, and delete bank accounts.  
+- **Deposit & Withdraw** – Perform transactions with database updates.  
+- **Balance Inquiry** – Check available account balance in real-time.  
+- **Transaction History** – View past transactions.  
+- **Graphical UI** – Java **Swing** based interactive interface.  
+- **Database Integration** – Uses **MySQL** for secure data storage.  
 
-### Technologies Used
+---
 
-- **Frontend:**
-  - React.js
-  - Tailwind CSS
+## 🛠️ Technologies Used  
 
-- **Backend:**
-  - Node.js
-  - Express.js
-  - MongoDB
+| Technology  | Description  |
+|-------------|--------------|
+| **Java** | Core language used for logic & UI |
+| **Swing & AWT** | Graphical User Interface (GUI) framework |
+| **JDBC** | Database connectivity in Java |
+| **MySQL** | SQL-based relational database for storage |
+| **Git & GitHub** | Version control & collaboration |
 
-- **Database:**
-  - Firebase
+---
 
-## Contributors
-
-- **ReactRocket:** Lead frontend developer and project coordinator.
-- **Sanju (sanju-react):** Backend developer and database management.
-
-## Setup Instructions
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/apex-college-management.git
-cd apex-college-management
+## 📂 Project Structure  
+```
+Bank Management System/
+│── src/
+│   ├── bank/management/system/
+│   │   ├── Login.java
+│   │   ├── Account.java
+│   │   ├── Transactions.java
+│   │   ├── DatabaseConnection.java
+│   │   ├── Deposit.java
+│   │   ├── Withdraw.java
+│   │   ├── BalanceCheck.java
+│   │
+│   ├── icon/
+│   │   ├── atm2.png
+│   │   ├── bankbg.png
+│   │   ├── bank.png
+│   │   ├── card.png
+│   │   ├── provider.png
+│── lib/
+│── out/
+│── .gitignore
+│── Bank Management System.iml
+│── README.md
 ```
 
-2. Install dependencies:
+---
 
-```bash
-cd client && npm install
-cd ../server && npm install
+## 🖼️ UI Icons  
+The project includes **image assets** for better UI design. These icons are stored in `src/icon/`:
+
+| 🏷 Image Name  | 🎯 Usage |
+|--------------|--------|
+| **atm2.png** | ATM-related UI elements |
+| **bankbg.png** | Background for the banking system |
+| **bank.png** | Bank logo/icon |
+| **card.png** | Card-related operations (e.g., debit/credit card UI) |
+| **provider.png** | Service provider-related transactions |
+
+---
+
+## 🚀 Installation & Setup  
+
+### **1️⃣ Clone the Repository**  
+```sh
+git clone https://github.com/kshitish28/Bank-Management-System.git
+cd Bank-Management-System
 ```
 
-3. Configure Firebase:
-   - Create a Firebase project and obtain the necessary credentials.
-   - Update the Firebase configuration in the appropriate files.
+### **2️⃣ Set Up the Database**  
+Install MySQL and create a database:
+```sql
+CREATE DATABASE bank_management;
+```
+Use the provided `bank_management.sql` file to import tables.
 
-4. Run the application:
-
-```bash
-cd client && npm start
-cd ../server && npm start
+### **3️⃣ Configure Database Connection**  
+Update `DatabaseConnection.java` with your database credentials:
+```java
+Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/bank_management", "root", "password");
 ```
 
-Visit `http://localhost:3000` to explore the Apex College Management Website.
+### **4️⃣ Compile and Run the Project**  
+Compile Java files:
+```sh
+javac -d . src/bank/management/system/*.java
+```
+Run the main class:
+```sh
+java bank.management.system.Main
+```
 
-## Project Timeline
+---
 
-- **Start Date:** [Specify Start Date]
-- **End Date:** [Specify End Date]
+## 📸 Screenshots  
+(Add relevant screenshots of login, dashboard, and transactions)
 
-## Acknowledgments
+---
 
-We extend our gratitude to Apex College for providing the opportunity to work on this meaningful project and gain practical experience in the field of web development.
+## 🔥 Future Enhancements  
 
-**Designed and Developed by ReactRocket and Sanju (sanju-react)**
-Copyright © 2024 Apex College Management Website
+- 🚀 Admin Dashboard for Bank Managers  
+- 🚀 Interest Calculation on savings accounts  
+- 🚀 Multi-Bank Branch Support  
+- 🚀 ATM Functionality Integration  
+
+---
+
+## 🤝 Contributing  
+Pull requests are welcome! Open an issue for feature suggestions or bug reports.
+
+---
+
+## 📄 License  
+This project is open-source and available under the MIT License.
+
+---
+
+## ⭐ Show some support!  
+If you like this project, please ⭐ star the repository on GitHub! 😊
